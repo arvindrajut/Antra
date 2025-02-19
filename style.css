@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.signup-box {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+
+.input-row input {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.agreement {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    text-align: left;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.agreement input {
+    width: auto;
+    margin: 0;
+}
+
+.agreement label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.agreement p {
+    margin: 0;
+    font-size: 14px;
+    display: inline; 
+}
+
+.agreement a {
+    color: blue;
+}
+
+.agreement-checkbox{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.span-reg {
+    color: white;
+    background-color: #0677f9;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.register-button {
+    background-color: #0677f9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.signin-button {
+    background-color: #00b300;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
