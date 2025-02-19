@@ -12,7 +12,7 @@ body {
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 25%;
+    width: 30%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -58,12 +58,14 @@ input {
 .agreement label {
     font-weight: bold;
     margin-right: 5px;
+    size: 2px;
 }
 
 .agreement p {
     margin: 0;
     font-size: 14px;
     display: inline; 
+    width: 70%;
 }
 
 .agreement a {
@@ -75,6 +77,7 @@ input {
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+    gap: 5px;
 }
 .span-reg {
     color: white;
